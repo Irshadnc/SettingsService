@@ -8,4 +8,6 @@ package com.codeberry.settingsinterfacemanager;
     long generateRandomNumber();
     String getVehicleModel();
 
+
+
 }

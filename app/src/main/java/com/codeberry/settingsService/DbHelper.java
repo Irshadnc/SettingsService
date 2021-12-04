@@ -61,6 +61,11 @@ public class DbHelper extends SQLiteOpenHelper {
         sqLiteDatabase.insert(TABLE_NAME, null, values);
         sqLiteDatabase.close();
     }
+    public boolean update() {
+        SQLiteDatabase  sqLiteDatabase = this.getReadableDatabase();
+        sqLiteDatabase.execSQL("UPDATE "+TABLE_NAME+" SET VALUE = "+""+0+" "+ "WHERE ID = "+""+100+"");
+        return true;
+    }
 
 
 

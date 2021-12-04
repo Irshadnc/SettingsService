@@ -55,6 +55,7 @@ public class SettingsService extends Service {
         db.insertdata(data4);
         db.insertdata(data5);
         db.insertdata(data6);
+        db.update();
 
 
 
